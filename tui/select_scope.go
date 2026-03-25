@@ -47,6 +47,7 @@ type ChangeScopeMsg struct {
 	Options    option.NixosOptionSource
 	Evaluator  option.EvaluatorFunc
 	KeepSearch bool
+	Err        error
 }
 
 type scopeItem struct {
